@@ -1,0 +1,7 @@
+
+server:
+  port: 8081
+option_settings:
+  - namespace: aws:elasticbeanstalk:command
+    option_name: Timeout
+    value: 1800
