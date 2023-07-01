@@ -36,6 +36,10 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<configuration>
+        <source>11</source>
+        <target>11</target>
+      </configuration>
 		<finalName>spring-aws</finalName>
 	</build>
 
