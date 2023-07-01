@@ -17,7 +17,7 @@ public class AwsApplication {
 
 	@GetMapping("/")
 	public List<String> awsTest() {
-		return Stream.of("Geeks", "for", "bedis","bouh").collect(Collectors.toList());
+		return Stream.of("Geeks", "for", "bedis","bouh","te5dem").collect(Collectors.toList());
 	}
 	
 	public static void main(String[] args) {
