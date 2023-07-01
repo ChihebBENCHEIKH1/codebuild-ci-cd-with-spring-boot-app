@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+
+  build:
+    commands:
+      - echo "Building Spring Boot application..."
+      - mvn clean install
+  post_build:
+    commands:
+      - echo "Uploading artifacts to S3 or deploying to AWS Elastic Beanstalk, etc."
+      - # Add your deployment steps her
+artifacts:
+  files:
+    - target/spring-aws.jar
+  discard-paths: yes
