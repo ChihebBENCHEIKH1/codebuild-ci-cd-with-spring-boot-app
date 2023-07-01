@@ -12,6 +12,6 @@ phases:
       - # Add your deployment steps her
 artifacts:
   files:
-    - target/test.jar
+    - target/spring-aws.jar
   discard-paths: yes
 
