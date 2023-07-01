@@ -34,12 +34,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-		<configuration>
+				<configuration>
         <source>11</source>
         <target>11</target>
       </configuration>
+			</plugin>
+		</plugins>
+		
 		<finalName>spring-aws</finalName>
 	</build>
 
